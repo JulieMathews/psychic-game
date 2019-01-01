@@ -1,0 +1,21 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: .5em;
+}
+
+.instructions {
+    text-align: center;
+    margin: .5em;
+}
+
+html,
+body {
+    background-color: rgb(189, 228, 179);
+}
+
+#game {
+    margin: 2em 0em 2em 10em;
+    z-index: 1;
+    text-align: left;
+}

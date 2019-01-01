@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Psychic Game</title>
+    <meta charset="UTF-8">
+    <title>The Psychic Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="game.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
+
 <body>
-    
+
+    <div class="beginning">
+        <header>
+            <h1>The Psychic Game</h1>
+        </header>
+        <hr>
+        <div class="instructions">
+            <h3>Guess what letter I'm thinking of</h3>
+        </div>
+            
+        <div id="game">
+            <ul class="list-group" style="list-style-type:square">
+                <li class="list-group-item">
+                    <span id="wins" style="color: #b132ca; font-size: 1.5em;">Wins: </span>
+                </li>
+                <li class="list-group-item">
+                    <p id="losses" style="color: #940511; font-size: 1.5em;">Losses: </p>
+                </li>
+                <li class="list-group-item">
+                    <p id="guessLeft" style="color: #1e369e; font-size: 1.5em;">Guesses Left: </p>
+                </li>
+                <li class="list-group-item">
+                    <p id="guessed" style="color: black; font-size: 1.5em;">Your Guesses so far: </p>
+                </li>
+            </ul>
+        </div>
+            <hr>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
+
 </html>
