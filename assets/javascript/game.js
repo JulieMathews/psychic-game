@@ -62,4 +62,5 @@ document.onkeyup = function(event) {
             alert("You lost!");
             reset();
         }
+
 };
