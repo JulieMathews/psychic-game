@@ -9,7 +9,6 @@ h1 {
     margin: .5em;
 }
 
-html,
 body {
     background-color: rgb(189, 228, 179);
 }
@@ -41,9 +40,8 @@ a:hover {
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1030;
+    width: 100%;
     display: block;
-    position: relative;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
